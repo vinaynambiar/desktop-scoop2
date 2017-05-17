@@ -13,7 +13,7 @@ if((get-executionpolicy) -gt 'RemoteSigned') {
 }
 
 # get core functions
-$core_url = 'https://raw.github.com/lukesampson/scoop/master/lib/core.ps1'
+$core_url = 'https://github.com/vinaynambiar/desktop-scoop2/blob/master/lib/core.ps1'
 echo 'Initializing...'
 iex (new-object net.webclient).downloadstring($core_url)
 
